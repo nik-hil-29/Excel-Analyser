@@ -23,15 +23,32 @@ st.markdown("""
         padding: 0rem 1rem;
     }
     .stMetric {
-        background-color: #f0f2f6;
-        padding: 10px;
-        border-radius: 5px;
+        background-color: #ffffff;
+        padding: 15px;
+        border-radius: 8px;
+        border: 1px solid #e0e0e0;
+    }
+    .stMetric label {
+        color: #1f77b4 !important;
+        font-weight: 600 !important;
+        font-size: 14px !important;
+    }
+    .stMetric [data-testid="stMetricValue"] {
+        color: #000000 !important;
+        font-size: 24px !important;
+        font-weight: 700 !important;
+    }
+    .stMetric [data-testid="stMetricDelta"] {
+        color: #666666 !important;
     }
     h1 {
         color: #1f77b4;
     }
     h2 {
         color: #2c3e50;
+    }
+    h3 {
+        color: #34495e;
     }
     </style>
 """, unsafe_allow_html=True)
