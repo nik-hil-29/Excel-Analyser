@@ -10,7 +10,7 @@ warnings.filterwarnings('ignore')
 
 # Page configuration
 st.set_page_config(
-    page_title="Universal Excel Analysis Dashboard",
+    page_title="Excel Analysis Dashboard",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
